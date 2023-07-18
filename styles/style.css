@@ -1,0 +1,115 @@
+/* all font here  */
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto&display=swap');
+/* Inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+/* Manrope */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+
+
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* start nav style */
+
+header{
+    padding: 5.438rem 7.5rem;
+    height: calc(100vh - 10.875rem);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    gap: 2.225rem;
+}
+
+nav > h3 >a {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav > ul > li > a{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+nav > ul > li > a:hover{
+    border-bottom: 0.188rem solid rgb(0, 0, 0);
+}
+
+/* end nav style */
+
+/* start banner style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 10.875rem);
+
+    
+}
+
+
+.banner-title{
+    width: 36.375rem;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 1rem;
+}
+
+.banner-discription{
+    width: 31.563rem;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.banner-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 0.625rem 1.5rem;
+    border: none;
+}
+
+.banner-btn:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 600ms;
+}
+
+.banner-btn >a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.banner-hero-img{
+    position: absolute;
+    right: 8.75rem;
+    top: 18.75rem;
+}
+
