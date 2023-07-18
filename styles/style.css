@@ -112,4 +112,55 @@ nav > ul > li > a:hover{
     right: 8.75rem;
     top: 18.75rem;
 }
+/* end banner style */
+
+
+/* start brands-img style */
+
+.brand-container{
+    padding: 0rem 14.188rem 5.438rem 14.188rem;
+}
+
+.brand-title{
+    text-align: center;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.brand-img{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+/* end brand-img style  */
+
+.card-section{
+    padding:0rem 12.25rem ;
+}
+
+.card-title{
+    text-align: center;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 4rem 0rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-box{
+    padding: 17px 15px;
+    height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
 
