@@ -217,3 +217,61 @@ nav > ul > li > a:hover{
     justify-content: flex-end;
     
 }
+
+/* featured-products-style */
+.featured-products-container{
+    display: flex;
+    padding: 5.438rem 7.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.featured-banner-title{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+ }
+
+.featured-banner-discription{
+    width: 31.313rem;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    margin: 1rem 0rem;
+}
+
+/* footer style section */
+.footer-main-container{
+    background-color: #0A0826;
+    padding: 6rem 7.5rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.footer-title{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.footer-discription{
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 1.5rem;
+}
